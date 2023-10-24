@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url("123.gif");
+    background-size: cover;
+
+  }
+  .container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .center-box {
+    height: 90vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(76, 76, 76, 0.152) ;
+    border: 1px solid #030303;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: left;
+    float: left;
+    color:beige;
+  }
+  .values{
+    width: 100%;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .center-box1 {
+    margin-left: 20px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 30px;
+    width: 40%;
+    font-size: 1em;
+    
+    background: rgba(76, 76, 76, 0.152) ;
+    border: 1px solid #030303;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    float: right;
+    color:beige;
+  }
+
+h1 {
+    color: rgb(232, 71, 71);
+    text-align: center;
+  }
+  form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+ 
+  form label{
+    margin-bottom: 10px;
+  }
+  form input{
+    padding: 10px 20px;
+    border: none;
+    background-color:rgba(64, 51, 35, 0.273);
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  form select{
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color:rgba(64, 51, 35, 0.273);
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+  }
+  form input[type=button]{
+    background-color:  rgb(232, 71, 71);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    border: none; 
+  }
+  form input[type=button]:hover{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+  }
+  p {
+    color: rgb(212, 255, 0);
+  }
+
+  table {
+    width: auto;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  th, td {
+    
+    border: 1px solid black;
+    padding: 10px;
+    
+  }
+  
+  th {
+    text-align: center;
+  }
